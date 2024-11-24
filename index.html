@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <header>
+
+        <img src="./assets/bank-logo.svg" alt="Bank logo">
+
+        <ul>
+            <li>БАНК</li>
+            <li>БИЗНЕС</li>
+            <li>ИНВЕСТИЦИИ</li>
+            <li>СТРАХОВАНИЕ</li>
+            <li>МОБАЙЛ</li>
+            <li>ПУТЕШЕСТВИЯ</li>
+            <li>РАЗВЛЕЧЕНИЯ</li>
+        </ul>
+
+        <button id="login">ВОЙТИ</button>
+        <button id="settings">...</button>
+
+    </header>
+
+    <div id="connection-status"></div>
+
+    <main>
+
+        <h1 class="head">Конвертер валют онлайн</h1>
+
+        <div class="container">
+
+            <div class="cards">
+                <p>У меня есть</p>
+                <ul class="currency js1" id="currency-one">
+                    <li class="rub selected" data-value="RUB">RUB</li>
+                    <li class="usd" data-value="USD">USD</li>
+                    <li class="eur" data-value="EUR">EUR</li>
+                    <li class="gbp" data-value="GBP">GBP</li>
+                </ul>
+                <div class="change">
+                    <input type="number" class="input1" id="amount-one" placeholder="0.0000">
+                    <p class="change-p1"></p>
+                </div>
+            </div>
+
+            <div class="cards" >
+                <p>Хочу приобрести</p>
+                <ul class="currency js2" id="currency-two">
+                    <li class="rub" data-value="RUB">RUB</li>
+                    <li class="usd selected" data-value="USD">USD</li>
+                    <li class="eur" data-value="EUR">EUR</li>
+                    <li class="gbp" data-value="GBP">GBP</li>
+                </ul>
+                <div class="change">
+                    <input type="number" class="input2" id="amount-two" placeholder="0.0000">
+                    <p class="change-p2"></p>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
