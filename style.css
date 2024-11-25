@@ -72,6 +72,7 @@ main{
 
 .head{
     margin-top: 20px;
+    margin-left: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 42.2px;
@@ -182,6 +183,10 @@ main{
 
     main{
         width: 240px;
+    }
+
+    .head{
+        margin-left: 20px;
     }
 
     .container{
